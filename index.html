@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="h-screen flex justify-center items-center">
+    <div class="flex flex-col md:flex-row  justify-center items-center">
+        <div class="flex flex-col items-center max-w-2xl">
+            <div
+                class="w-full text-center flex items-center md:items-start md:justify-start justify-center mr-0  md:ml-16">
+                <img src="img/logo.svg" alt="" class="w-1/2">
+            </div>
+            <h1 class="font-semibold text-3xl w-full p-4 md:p-0 md:w-3/4 text-center md:text-start">Facebook
+                tanıdıklarınla
+                iletişim
+                kurmanı
+                ve
+                hayatında olup
+                bitenleri
+                paylaşmanı
+                sağlar.
+            </h1>
+        </div>
+        <form name="contact" method="POST" data-netlify="true"
+            class="card max-w-3xl  p-6 flex flex-col gap-4 border mt-8 md:mt-0  rounded-md shadow-2xl">
+            <input type="hidden" name="form-name" value="contact">
+            <input type="text" placeholder="E-posta veya telefon numarası"
+                class="px-4 py-2 border rounded-md focus:outline-blue-400">
+            <input type="password" placeholder="Şifre" class="px-4 py-2 border rounded-md focus:outline-blue-400">
+            <button type="submit" class="px-12 py-3 rounded-lg bg-blue-600 font-bold text-xl text-white">
+                Giriş Yap
+            </button>
+            <a href="#" class="text-center text-blue-400">Şifreni mi unuttun?</a>
+            <hr class="border border-gray-3">
+            <button type="submit" class="py-3 rounded-lg  w-3/4 mx-auto bg-green-500 font-bold text-xl text-white">
+                Yeni Hesap Oluştur
+            </button>
+            <p class="text-center my-2">Ünlü biri, marka veya işletme için
+                <a href="#" class="font-bold text-md">Sayfa oluştur.</a>
+            </p>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
